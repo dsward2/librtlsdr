@@ -506,7 +506,9 @@
 		05F4AD8730DB4A1A9DCB15A1 /* rtl_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rtl_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		0782FBCC1DFF44258295DD75 /* waveread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = waveread.c; path = src/convenience/waveread.c; sourceTree = SOURCE_ROOT; };
 		0D46FD866F9748199FFB6FC9 /* rtl_tcp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rtl_tcp; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E10AE8428B96EA200659C40 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = xcode/Package.swift; sourceTree = "<group>"; };
+		0E81DD3C28C1944100B25A83 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		0E81DD3D28C195B800B25A83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0E81DD3E28C195C500B25A83 /* README_improvements.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_improvements.md; sourceTree = "<group>"; };
 		0F537A2CE4C2434CAB930ABF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		1CE5767757914E348C61EF03 /* tuner_e4k.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tuner_e4k.c; path = src/tuner_e4k.c; sourceTree = SOURCE_ROOT; };
 		1EECA533D2954BBCA4FCD691 /* tuner_e4k.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tuner_e4k.c; path = src/tuner_e4k.c; sourceTree = SOURCE_ROOT; };
@@ -1035,7 +1037,9 @@
 		F8944A0FAAFF42319A133CEB = {
 			isa = PBXGroup;
 			children = (
-				0E10AE8428B96EA200659C40 /* Package.swift */,
+				0E81DD3C28C1944100B25A83 /* Package.swift */,
+				0E81DD3D28C195B800B25A83 /* README.md */,
+				0E81DD3E28C195C500B25A83 /* README_improvements.md */,
 				D402460D7E7A48EC8753E91A /* uninstall */,
 				0B6208F3F4514C39AE4A24F4 /* ALL_BUILD */,
 				598C2C0D314940C6AE9F3B39 /* rtlsdr_shared */,
